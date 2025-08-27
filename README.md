@@ -31,6 +31,34 @@ Dear Instructor [Instructor Name],
 
 I am sorry that I am unable to turn in my homework at this time. First, I ate a rotten [Food], which made me turn [Color] and extremely ill. I came down with a fever of [Number 100-120]. Next, my [Adjective] pet [Animal] must have smelled the remains of the [Food] on my homework, because he ate it. I am currently rewriting my homework and hope you will accept it late.
 
+
 Sincerely,
 
 [Your Name]
+
+
+## Assignment 4
+Given 4 integers, output their product and their average using integer arithmetic.
+
+Ex: If the input is:
+
+8 10 5 4
+the output is:
+
+1600 6
+Note: Integer division discards the fraction. Hence the average of 8 10 5 4 is output as 6, not 6.75.
+
+Also output the product and average using floating-point arithmetic.
+
+Output each floating-point value with three digits after the decimal point, which can be achieved by executing
+cout << fixed << setprecision(3); once before all other cout statements.
+
+Hint: Convert the input values from int to double.
+
+Ex: If the input is:
+
+8 10 5 4
+the output is:
+
+1600 6
+1600.000 6.750
